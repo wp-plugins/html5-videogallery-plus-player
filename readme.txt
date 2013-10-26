@@ -33,7 +33,7 @@ Now just create a new page and add this short code '[sp_html5video limit="-1"]' 
 1. Upload the 'html5_videogallery_and_player' folder to the '/wp-content/plugins/' directory.
 2. Activate the 'SP HTML5 Video Player and Video gallery'  plugin through the 'Plugins' menu in WordPress.
 3. Add a new page and add this short code "[sp_html5video limit="-1"]".
-4. Add php code directly to your template file '<?php echo do_shortcode('[sp_html5video limit="-1"]'); ?>'.
+4. Add php code directly to your template file 'echo do_shortcode('[sp_html5video limit="-1"]');' inside php code. 
 
 ### How to add video files in to your page
 Upload all there format(mp4,ogg,webm) through Media and paste all these links like this under "Video Gallery -> Add New"
@@ -56,7 +56,7 @@ Yes, Add a new page and add this short code '[sp_html5video limit="-1"]'.
 
 = Are there PHP code for Video Gallery items? =
 
-Yes, '<?php echo do_shortcode('[sp_html5video limit="-1"]'); ?>'.
+Yes, ' echo do_shortcode('[sp_html5video limit="-1"]'); '.
 
 == Screenshots ==
 
