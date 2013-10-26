@@ -16,7 +16,7 @@ This plugin add a responsive HTML5 Video Player and Video gallery to Wordpress w
 The plugin adds a Video gallery tab to your admin menu, which allows you to enter Video Title and Video source items just as you would regular posts.
 Also added setting page "Html5video Settings" under "setting" menu to set the height and width of your video player.  
 
-Now just create a new page and add this short code '[sp_html5video limit="-1"]' to your page. You can also use PHP code'echo do_shortcode('[sp_html5video limit="-1"]'); ' directly to your template file.
+Now just create a new page and add this short code '[sp_html5video limit="-1"]' to your page. You can also use PHP code "echo do_shortcode('[sp_html5video limit="-1"]'); " directly to your template file.
 
 = Features include: =
 * Create a Video gallery page.
