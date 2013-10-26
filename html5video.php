@@ -87,6 +87,18 @@ function sp_html5video_shortcode( $atts, $content = null ) {
 	//Get post type count
 	$option = 'html5video_option';
 	$html5widthandheight = get_option( $option, $default ); 
+	$videocustomwidth = $html5widthandheight['html5video_width'];
+	$videocustomheight = $html5widthandheight['html5video_height'];
+	if ($videocustomwidth == '' )
+		{
+			$videodefultwidth = 500;
+		} else { $videodefultwidth = $videocustomwidth;
+		}
+	if ($videocustomheight == '' )
+		{
+			$videodefultheight = 300;
+		} else { $videodefultheight = $videocustomheight;
+		}	
 	
 	$post_count = $query->post_count;
 	$i = 1;
@@ -98,8 +110,8 @@ function sp_html5video_shortcode( $atts, $content = null ) {
 		while ($query->have_posts()) : $query->the_post();
 		
 		?>
-		<div class="video_frame" style="width:<?php echo $html5widthandheight['html5video_width']; ?>px; margin:0 20px 20px 0; float:left;">
-		 <video id="video_<?php echo get_the_ID(); ?>" class="video-js vjs-default-skin" controls preload="none" width="<?php echo $html5widthandheight['html5video_width']; ?>" height="<?php echo $html5widthandheight['html5video_height']; ?>"
+		<div class="video_frame" style="width:<?php echo $videodefultwidth; ?>px; margin:0 20px 20px 0; float:left;">
+		 <video id="video_<?php echo get_the_ID(); ?>" class="video-js vjs-default-skin" controls preload="none" width="<?php echo $videodefultwidth; ?>" height="<?php echo $videodefultheight; ?>"
 				poster="<?php if (has_post_thumbnail( $post->ID ) ): ?>
 <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); 
  echo $image[0]; endif; ?>"
