@@ -47,12 +47,13 @@ Upload all there format(mp4,ogg,webm) through Media and paste all these links li
 	
 ### How to add video player directly in to your page
 Just copy this code and enter in to your page 
-
+<code>
 <video id="video_705" class="video-js vjs-default-skin" controls preload="none" width="400" height="250" poster="http://yourdomainname.com/potesr.jpg"  data-setup="{}">		
 	<source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
     <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
     <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />		
 </video>	
+</code>
 
 
 == Frequently Asked Questions ==
