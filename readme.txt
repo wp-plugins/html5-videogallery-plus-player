@@ -39,7 +39,7 @@ Now just create a new page and add this short code <code>[sp_html5video limit="-
 Create a page with any name and enter <code>[sp_html5video limit="-1"]</code> short code in to your page OR  <code> <?php echo do_shortcode('[sp_html5video limit="-1"]'); ?> </code> to your template file.
 
 ### How to add video files in to your page
-Upload all there format(mp4,ogg,webm) through Media and paste all these links like this under "Video Gallery -> Add New"
+Upload all there format(mp4,ogg,webm) through Media and paste all these code and links like this under "Video Gallery -> Add New"
     
     <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
     <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
