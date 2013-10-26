@@ -65,11 +65,11 @@ There is one templates named 'html5video.php' which work like same as defult POS
 
 = Are there shortcodes for Video Gallery items? =
 
-Yes, Add a new page and add this short code '[sp_html5video limit="-1"]'.
+Yes, Add a new page and add this short code <code>[sp_html5video limit="-1"] </code>
 
 = Are there PHP code for Video Gallery items? =
 
-Yes, " echo do_shortcode('[sp_html5video limit="-1"]'); ".
+Yes,  <code> <?php echo do_shortcode('[sp_html5video limit="-1"]'); ?> </code>
 
 == Screenshots ==
 
