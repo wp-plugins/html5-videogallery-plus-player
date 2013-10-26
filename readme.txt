@@ -16,7 +16,7 @@ This plugin add a responsive HTML5 Video Player and Video gallery to Wordpress w
 The plugin adds a Video gallery tab to your admin menu, which allows you to enter Video Title and Video source items just as you would regular posts.
 Also added setting page "Html5video Settings" under "setting" menu to set the height and width of your video player.  
 
-Now just create a new page and add this short code '[sp_html5video limit="-1"]' to your page. You can also use PHP code'<?php echo do_shortcode('[sp_html5video limit="-1"]'); ?>' directly to your template file.
+Now just create a new page and add this short code '[sp_html5video limit="-1"]' to your page. You can also use PHP code'echo do_shortcode('[sp_html5video limit="-1"]'); ' directly to your template file.
 
 = Features include: =
 * Create a Video gallery page.
@@ -33,14 +33,26 @@ Now just create a new page and add this short code '[sp_html5video limit="-1"]' 
 1. Upload the 'html5_videogallery_and_player' folder to the '/wp-content/plugins/' directory.
 2. Activate the 'SP HTML5 Video Player and Video gallery'  plugin through the 'Plugins' menu in WordPress.
 3. Add a new page and add this short code "[sp_html5video limit="-1"]".
-4. Add php code directly to your template file 'echo do_shortcode('[sp_html5video limit="-1"]');' inside php code. 
+4. Add php code directly to your template file "echo do_shortcode('[sp_html5video limit="-1"]');" inside php code. 
+
+### How to add video gallery page
+Create a page with any name and enter "[sp_html5video limit="-1"]" short code in to your page.
 
 ### How to add video files in to your page
 Upload all there format(mp4,ogg,webm) through Media and paste all these links like this under "Video Gallery -> Add New"
     
-     <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+    <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
     <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
     <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
+	
+### How to add video player directly in to your page
+Just copy this code and enter in to your page 
+
+<video id="video_705" class="video-js vjs-default-skin" controls preload="none" width="400" height="250" poster="http://yourdomainname.com/potesr.jpg"  data-setup="{}">		
+	<source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+    <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
+    <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />		
+</video>	
 
 
 == Frequently Asked Questions ==
@@ -56,7 +68,7 @@ Yes, Add a new page and add this short code '[sp_html5video limit="-1"]'.
 
 = Are there PHP code for Video Gallery items? =
 
-Yes, ' echo do_shortcode('[sp_html5video limit="-1"]'); '.
+Yes, " echo do_shortcode('[sp_html5video limit="-1"]'); ".
 
 == Screenshots ==
 
