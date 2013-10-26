@@ -38,9 +38,9 @@ Now just create a new page and add this short code '[sp_html5video limit="-1"]' 
 ### How to add video files in to your page
 Upload all there format(mp4,ogg,webm) through Media and paste all these links like this under "Video Gallery -> Add New"
     
-     '<source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+     <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
     <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
-    <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />'
+    <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
 
 
 == Frequently Asked Questions ==
