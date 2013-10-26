@@ -32,8 +32,9 @@ Now just create a new page and add this short code <code>[sp_html5video limit="-
 
 1. Upload the 'html5_videogallery_and_player' folder to the '/wp-content/plugins/' directory.
 2. Activate the 'SP HTML5 Video Player and Video gallery'  plugin through the 'Plugins' menu in WordPress.
-3. Add a new page and add this short code <code>[sp_html5video limit="-1"] </code>.
-4. Add php code directly to your template file <code> <?php echo do_shortcode('[sp_html5video limit="-1"]'); ?> </code> inside php code. 
+3. Go to setting page "Html5video Settings" under "setting" and add height and width of player.
+4. Add a new page and add this short code <code>[sp_html5video limit="-1"] </code>.
+5. Add php code directly to your template file <code> <?php echo do_shortcode('[sp_html5video limit="-1"]'); ?> </code> inside php code. 
 
 ### How to add video gallery page
 Create a page with any name and enter <code>[sp_html5video limit="-1"]</code> short code in to your page OR  <code> <?php echo do_shortcode('[sp_html5video limit="-1"]'); ?> </code> to your template file.
