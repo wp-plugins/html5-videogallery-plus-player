@@ -1,13 +1,13 @@
-=== HTML5 Video Player and Video gallery(Responsive) ===
+=== HTML5 Video gallery and Player ===
 Contributors: SP Technolab
 Tags: HTML5, video.js,  HTML5 video, HTML5 video player, HTML5 video gallery, wordpress HTML5 video, wordpress HTML5 video player, wordpress HTML5 video gallery, responsive, wordpress responsive video gallery  
 Requires at least: 3.1
-Tested up to: 3.6
+Tested up to: 3.7
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A quick, easy way to add responsive HTML5 Video Player and Video gallery to Wordpress website. 
+A quick, easy way to add responsive HTML5 Video gallery and Video player  to Wordpress website. 
 
 == Description ==
 
