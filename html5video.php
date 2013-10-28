@@ -233,7 +233,7 @@ class Html5videosetting
 
         add_settings_field(
             'html5video_width', // ID
-            'Video Player Width(px)', // Title 
+            'Video Player Width', // Title 
             array( $this, 'html5video_width_callback' ), // Callback
             'Html5video-setting-admin', // Page
             'setting_section_id' // Section           
@@ -241,7 +241,7 @@ class Html5videosetting
 
         add_settings_field(
             'html5video_height', 
-            'Video Player Height(px)', 
+            'Video Player Height', 
             array( $this, 'html5video_height_callback' ), 
             'Html5video-setting-admin', 
             'setting_section_id'
@@ -282,6 +282,7 @@ class Html5videosetting
             '<input type="text" id="html5video_width" name="html5video_option[html5video_width]" value="%s" />',
             isset( $this->options['html5video_width'] ) ? esc_attr( $this->options['html5video_width']) : ''
         );
+		printf('px');
     }
 
     /** 
@@ -293,6 +294,7 @@ class Html5videosetting
             '<input type="text" id="html5video_height" name="html5video_option[html5video_height]" value="%s" />',
             isset( $this->options['html5video_height'] ) ? esc_attr( $this->options['html5video_height']) : ''
         );
+			printf('px');
     }
 }
 
