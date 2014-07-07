@@ -1,5 +1,5 @@
 === HTML5 Video gallery and Player ===
-Contributors: SP Technolab, anoopranawat 
+Contributors: sptechnolab, anoopranawat 
 Tags: HTML5, video.js,  HTML5 video, HTML5 video player, HTML5 video gallery, wordpress HTML5 video, wordpress HTML5 video player, wordpress HTML5 video gallery, responsive, wordpress responsive video gallery  
 Requires at least: 3.1
 Tested up to: 3.7
