@@ -18,6 +18,10 @@ Also added setting page "Html5video Settings" under "setting" menu to set the he
 
 Now just create a new page and add this short code <code>[sp_html5video limit="-1"] </code> to your page. You can also use PHP code <code> <?php echo do_shortcode('[sp_html5video limit="-1"]'); ?></code> directly to your template file.
 
+= Installation help and support =
+* Please check installation help on our website. View [Installation help and support](http://wponlinesupport.com/plugin-installation-support/) 
+* Get Free installation and setup on your website.
+
 = Features include: =
 * Create a Video gallery page.
 * Add a Video player to your page.
